@@ -51,7 +51,7 @@ header("Content-type: Text/Plain");
 //Connect to the MySQL server
 $mysqli = new mysqli(__DB_SERVER, __DB_USERNAME, __DB_PASSWORD, __DB_DATABASE);
 if ($mysqli->connect_errno) {
-    printf("Connect failed: %s\n", $mysqli->connect_error());
+    printf("Connect failed: %s\n", $mysqli->error);
     exit();
 }
 
