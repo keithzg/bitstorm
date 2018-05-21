@@ -22,7 +22,7 @@
  ** Configuration start **
  *************************/
 
-require_once config.php;
+require_once 'config.php';
 
  /***********************
  ** Configuration end **
