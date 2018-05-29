@@ -1,4 +1,6 @@
 <?php
+// Create a copy of this called config.php and fill it out according to your own desired and required settings
+
 //MySQL details
 define('__DB_SERVER', '');
 define('__DB_USERNAME', '');
